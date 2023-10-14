@@ -60,11 +60,11 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8A70FEAE16D115BDED2DCE75 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8A70FEAE16D115BDED2DCE75 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8EF2631A698D883314935AB9 /* Pods-FLCRM_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLCRM_Tests.release.xcconfig"; path = "Target Support Files/Pods-FLCRM_Tests/Pods-FLCRM_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9B52D9B940ECDAD9435F82DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9B52D9B940ECDAD9435F82DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A8C2732B2F4B41C440AD1960 /* Pods-FLCRM_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLCRM_Example.release.xcconfig"; path = "Target Support Files/Pods-FLCRM_Example/Pods-FLCRM_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AF2C47A943855CF57FE0FE3B /* FLCRM.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FLCRM.podspec; path = ../FLCRM.podspec; sourceTree = "<group>"; };
+		AF2C47A943855CF57FE0FE3B /* FLCRM.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FLCRM.podspec; path = ../FLCRM.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BD149277B1EA775670722F3A /* Pods_FLCRM_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLCRM_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBE3C3E086A294847A1F10BA /* Pods-FLCRM_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLCRM_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FLCRM_Tests/Pods-FLCRM_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				EBE3C3E086A294847A1F10BA /* Pods-FLCRM_Tests.debug.xcconfig */,
 				8EF2631A698D883314935AB9 /* Pods-FLCRM_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47CEE31FFB5F723F80F3D0BEF8659D11 /* Pods-FLCRM_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCBD6E14E0AE9A9A1CFECE2B1E627DE /* Pods-FLCRM_Example-dummy.m */; };
+		5B1EF6D4B498E64FA7D4C2695EF0860C /* FLCRM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B56251E25D7A3256FD9509404FC2BC0C /* FLCRM-dummy.m */; };
+		624E457CE89BE4AF3FBB22322F59C2D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		784FAABCCB1E1187FD4C727DF600336F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		789CB2C76D5BAA0028E4A4CDDD694CB1 /* FLCRM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC3A96B7C0A790B252A04986701DF50 /* FLCRM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81B3F3EC54B99C1C75F71AFABC8D28CE /* Pods-FLCRM_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 128D580129EAB8C89900EB046CE8F0DD /* Pods-FLCRM_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B28DD5902ADAE97400DB94B8 /* CRMHomeController.h in Headers */ = {isa = PBXBuildFile; fileRef = B28DD58D2ADAE97400DB94B8 /* CRMHomeController.h */; };
+		B28DD5912ADAE97400DB94B8 /* CRMHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B28DD58E2ADAE97400DB94B8 /* CRMHomeController.m */; };
+		B28DD5922ADAE97400DB94B8 /* CRMHomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B28DD58F2ADAE97400DB94B8 /* CRMHomeController.xib */; };
+		B4C7DD8D806038BB0372687E2E201EDE /* Pods-FLCRM_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 533588EFAB0F815BEA27B0C6B165ED55 /* Pods-FLCRM_Tests-dummy.m */; };
+		C48D56F5149443FAE347549A0979FDDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C61DE3C5C3379B6AB8090EA15E3DE502 /* Pods-FLCRM_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C6469AD6E97BB00732DF1305D107436 /* Pods-FLCRM_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		705345CC41B1545D8E4F6B899A0E7DE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA0F1ADDD70CCE565DB147E932888DED;
+			remoteInfo = "Pods-FLCRM_Example";
+		};
+		EE1693EC42B06746B80C20D27EC794FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 508DDB1FF71474D2180B361FB49F6AF8;
+			remoteInfo = FLCRM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E30D9D8A8F9604A4BE18FF5CF1F78F5 /* Pods-FLCRM_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLCRM_Example-Info.plist"; sourceTree = "<group>"; };
+		0FC2FB67CD70F1D7A01F7FED75BC15AA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		128D580129EAB8C89900EB046CE8F0DD /* Pods-FLCRM_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FLCRM_Example-umbrella.h"; sourceTree = "<group>"; };
+		1B51598763C02DF7EC9F7CB996D6A89E /* Pods-FLCRM_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLCRM_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1C6469AD6E97BB00732DF1305D107436 /* Pods-FLCRM_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FLCRM_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1DC3A96B7C0A790B252A04986701DF50 /* FLCRM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLCRM-umbrella.h"; sourceTree = "<group>"; };
+		2A9A1492548C5281A1E7F00CD8D562C0 /* FLCRM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLCRM.debug.xcconfig; sourceTree = "<group>"; };
+		3035D10E8424C3D2A4BE49C9D2C7CB01 /* FLCRM-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FLCRM-Info.plist"; sourceTree = "<group>"; };
+		3460B7209E1285A433BA42E56075A769 /* Pods_FLCRM_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLCRM_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		416102E081AE44A61BD2A7B354BDA566 /* Pods-FLCRM_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLCRM_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		533588EFAB0F815BEA27B0C6B165ED55 /* Pods-FLCRM_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FLCRM_Tests-dummy.m"; sourceTree = "<group>"; };
+		56DB5254417BB3199FBF52CA849D6632 /* FLCRM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLCRM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AAC3AFE4A23E468323F0B585BF8E7C1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		64B77FBF090226CC00BC11FAFB1B58C8 /* Pods-FLCRM_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FLCRM_Example.modulemap"; sourceTree = "<group>"; };
+		6A7241B6F64B291AAB9CEAFBFAD7AE45 /* FLCRM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FLCRM.modulemap; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76767AB95327EB74BE4213A944A28432 /* Pods-FLCRM_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLCRM_Tests-Info.plist"; sourceTree = "<group>"; };
+		7F8A66EE9A58B4B823C2D7B75593AE1F /* Pods-FLCRM_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLCRM_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9A4DAF69F86DB9716BFBE43F0701CAF7 /* Pods-FLCRM_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLCRM_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FD84B836AD8922BDB24B79A452D1D51 /* Pods-FLCRM_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLCRM_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ADCBD6E14E0AE9A9A1CFECE2B1E627DE /* Pods-FLCRM_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FLCRM_Example-dummy.m"; sourceTree = "<group>"; };
+		AE8B25DDEB169D1050B90AC242E57D06 /* Pods-FLCRM_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLCRM_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE8BFB08D2D7DA66AD1641059CC43B58 /* Pods-FLCRM_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLCRM_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B28659B0BAEA93E673F7166CB026A991 /* Pods-FLCRM_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLCRM_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B28DD58D2ADAE97400DB94B8 /* CRMHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CRMHomeController.h; path = FLCRM/Classes/CRMHomeController.h; sourceTree = "<group>"; };
+		B28DD58E2ADAE97400DB94B8 /* CRMHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CRMHomeController.m; path = FLCRM/Classes/CRMHomeController.m; sourceTree = "<group>"; };
+		B28DD58F2ADAE97400DB94B8 /* CRMHomeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CRMHomeController.xib; path = FLCRM/Classes/CRMHomeController.xib; sourceTree = "<group>"; };
+		B56251E25D7A3256FD9509404FC2BC0C /* FLCRM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLCRM-dummy.m"; sourceTree = "<group>"; };
+		BDA4CF1D08CAFF99624AC2B58621A0C5 /* FLCRM.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FLCRM.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C91A69022FCACC728844873C49C30F59 /* Pods-FLCRM_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FLCRM_Tests.modulemap"; sourceTree = "<group>"; };
+		CE812A141FAB75BD9D1049D9032D3119 /* FLCRM-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLCRM-prefix.pch"; sourceTree = "<group>"; };
+		D367B378BFF47607E009838E0214D74B /* FLCRM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLCRM.release.xcconfig; sourceTree = "<group>"; };
+		D7DAE53D571EDE7136F73F3EF1C4AD1A /* Pods-FLCRM_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLCRM_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD2C98C63ACBA138FBC059A2799DA981 /* Pods_FLCRM_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLCRM_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B1097D238FD1B01584E30BD2810EF30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48D56F5149443FAE347549A0979FDDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B7604A9D24CED592BBFA47C8812333C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624E457CE89BE4AF3FBB22322F59C2D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC1CD2EB07159040CF5402AC6EA95E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784FAABCCB1E1187FD4C727DF600336F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E2CFC9E0FD15CAFEB6BD4BC3DD676D /* FLCRM */ = {
+			isa = PBXGroup;
+			children = (
+				B28DD58D2ADAE97400DB94B8 /* CRMHomeController.h */,
+				B28DD58E2ADAE97400DB94B8 /* CRMHomeController.m */,
+				B28DD58F2ADAE97400DB94B8 /* CRMHomeController.xib */,
+				8DD5EBB6D4024383D24A35946375D786 /* Pod */,
+				3AF7D693C32723AFA2ED249D63260619 /* Support Files */,
+			);
+			name = FLCRM;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		29070C938F8C974DD9604222CD071AE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56DB5254417BB3199FBF52CA849D6632 /* FLCRM.framework */,
+				3460B7209E1285A433BA42E56075A769 /* Pods_FLCRM_Example.framework */,
+				FD2C98C63ACBA138FBC059A2799DA981 /* Pods_FLCRM_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AF7D693C32723AFA2ED249D63260619 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A7241B6F64B291AAB9CEAFBFAD7AE45 /* FLCRM.modulemap */,
+				B56251E25D7A3256FD9509404FC2BC0C /* FLCRM-dummy.m */,
+				3035D10E8424C3D2A4BE49C9D2C7CB01 /* FLCRM-Info.plist */,
+				CE812A141FAB75BD9D1049D9032D3119 /* FLCRM-prefix.pch */,
+				1DC3A96B7C0A790B252A04986701DF50 /* FLCRM-umbrella.h */,
+				2A9A1492548C5281A1E7F00CD8D562C0 /* FLCRM.debug.xcconfig */,
+				D367B378BFF47607E009838E0214D74B /* FLCRM.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FLCRM";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8DD5EBB6D4024383D24A35946375D786 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BDA4CF1D08CAFF99624AC2B58621A0C5 /* FLCRM.podspec */,
+				5AAC3AFE4A23E468323F0B585BF8E7C1 /* LICENSE */,
+				0FC2FB67CD70F1D7A01F7FED75BC15AA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AC1EB9FDA7DD877AE2788FC57CFF62DE /* Pods-FLCRM_Example */ = {
+			isa = PBXGroup;
+			children = (
+				64B77FBF090226CC00BC11FAFB1B58C8 /* Pods-FLCRM_Example.modulemap */,
+				AE8B25DDEB169D1050B90AC242E57D06 /* Pods-FLCRM_Example-acknowledgements.markdown */,
+				D7DAE53D571EDE7136F73F3EF1C4AD1A /* Pods-FLCRM_Example-acknowledgements.plist */,
+				ADCBD6E14E0AE9A9A1CFECE2B1E627DE /* Pods-FLCRM_Example-dummy.m */,
+				AE8BFB08D2D7DA66AD1641059CC43B58 /* Pods-FLCRM_Example-frameworks.sh */,
+				0E30D9D8A8F9604A4BE18FF5CF1F78F5 /* Pods-FLCRM_Example-Info.plist */,
+				128D580129EAB8C89900EB046CE8F0DD /* Pods-FLCRM_Example-umbrella.h */,
+				1B51598763C02DF7EC9F7CB996D6A89E /* Pods-FLCRM_Example.debug.xcconfig */,
+				B28659B0BAEA93E673F7166CB026A991 /* Pods-FLCRM_Example.release.xcconfig */,
+			);
+			name = "Pods-FLCRM_Example";
+			path = "Target Support Files/Pods-FLCRM_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F6638A23597687D304AB061141D00383 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				29070C938F8C974DD9604222CD071AE2 /* Products */,
+				D47DE2A97EE123439FEB91861F458B38 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D47DE2A97EE123439FEB91861F458B38 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC1EB9FDA7DD877AE2788FC57CFF62DE /* Pods-FLCRM_Example */,
+				F9B5610062C732658E0A45C87F8C7940 /* Pods-FLCRM_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F6638A23597687D304AB061141D00383 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00E2CFC9E0FD15CAFEB6BD4BC3DD676D /* FLCRM */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F9B5610062C732658E0A45C87F8C7940 /* Pods-FLCRM_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C91A69022FCACC728844873C49C30F59 /* Pods-FLCRM_Tests.modulemap */,
+				9FD84B836AD8922BDB24B79A452D1D51 /* Pods-FLCRM_Tests-acknowledgements.markdown */,
+				9A4DAF69F86DB9716BFBE43F0701CAF7 /* Pods-FLCRM_Tests-acknowledgements.plist */,
+				533588EFAB0F815BEA27B0C6B165ED55 /* Pods-FLCRM_Tests-dummy.m */,
+				76767AB95327EB74BE4213A944A28432 /* Pods-FLCRM_Tests-Info.plist */,
+				1C6469AD6E97BB00732DF1305D107436 /* Pods-FLCRM_Tests-umbrella.h */,
+				416102E081AE44A61BD2A7B354BDA566 /* Pods-FLCRM_Tests.debug.xcconfig */,
+				7F8A66EE9A58B4B823C2D7B75593AE1F /* Pods-FLCRM_Tests.release.xcconfig */,
+			);
+			name = "Pods-FLCRM_Tests";
+			path = "Target Support Files/Pods-FLCRM_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F0668E331A987C012F66012A417B1A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28DD5902ADAE97400DB94B8 /* CRMHomeController.h in Headers */,
+				789CB2C76D5BAA0028E4A4CDDD694CB1 /* FLCRM-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5285DE1091B36A9442105CB269F4E41 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61DE3C5C3379B6AB8090EA15E3DE502 /* Pods-FLCRM_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31B66F4596FC21C543B0B0920B04984 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B3F3EC54B99C1C75F71AFABC8D28CE /* Pods-FLCRM_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		508DDB1FF71474D2180B361FB49F6AF8 /* FLCRM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555A1A6F27DDE17EC74F873629BEAF57 /* Build configuration list for PBXNativeTarget "FLCRM" */;
+			buildPhases = (
+				1F0668E331A987C012F66012A417B1A2 /* Headers */,
+				393D5B44575EA25FE563805173B3E4B7 /* Sources */,
+				FAC1CD2EB07159040CF5402AC6EA95E2 /* Frameworks */,
+				F68B414EB53EEED625F05D90E8D3A193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLCRM;
+			productName = FLCRM;
+			productReference = 56DB5254417BB3199FBF52CA849D6632 /* FLCRM.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA0F1ADDD70CCE565DB147E932888DED /* Pods-FLCRM_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F16AB1BEE59AD6347CA96C256275C9C /* Build configuration list for PBXNativeTarget "Pods-FLCRM_Example" */;
+			buildPhases = (
+				E31B66F4596FC21C543B0B0920B04984 /* Headers */,
+				60BF137F79C2CED95257B9ED05CB2644 /* Sources */,
+				5B7604A9D24CED592BBFA47C8812333C /* Frameworks */,
+				31ABC63F283BDE441585EA9ABB324E20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C53CED62A729D0F98F1DE073CF0F4CD /* PBXTargetDependency */,
+			);
+			name = "Pods-FLCRM_Example";
+			productName = "Pods-FLCRM_Example";
+			productReference = 3460B7209E1285A433BA42E56075A769 /* Pods_FLCRM_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC53D3B5B833A94894A94E5AB3AD76AF /* Pods-FLCRM_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1373B28059A2A6B91BB3DD5E9DC8504F /* Build configuration list for PBXNativeTarget "Pods-FLCRM_Tests" */;
+			buildPhases = (
+				D5285DE1091B36A9442105CB269F4E41 /* Headers */,
+				CACB6E9910D34F75E517CB1F1D510365 /* Sources */,
+				4B1097D238FD1B01584E30BD2810EF30 /* Frameworks */,
+				A7109E699E5639D252A4D5D039F41509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1C506B10C51110B814A5E0447FE127B /* PBXTargetDependency */,
+			);
+			name = "Pods-FLCRM_Tests";
+			productName = "Pods-FLCRM_Tests";
+			productReference = FD2C98C63ACBA138FBC059A2799DA981 /* Pods_FLCRM_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 29070C938F8C974DD9604222CD071AE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				508DDB1FF71474D2180B361FB49F6AF8 /* FLCRM */,
+				DA0F1ADDD70CCE565DB147E932888DED /* Pods-FLCRM_Example */,
+				DC53D3B5B833A94894A94E5AB3AD76AF /* Pods-FLCRM_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31ABC63F283BDE441585EA9ABB324E20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7109E699E5639D252A4D5D039F41509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68B414EB53EEED625F05D90E8D3A193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28DD5922ADAE97400DB94B8 /* CRMHomeController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		393D5B44575EA25FE563805173B3E4B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1EF6D4B498E64FA7D4C2695EF0860C /* FLCRM-dummy.m in Sources */,
+				B28DD5912ADAE97400DB94B8 /* CRMHomeController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BF137F79C2CED95257B9ED05CB2644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CEE31FFB5F723F80F3D0BEF8659D11 /* Pods-FLCRM_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACB6E9910D34F75E517CB1F1D510365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4C7DD8D806038BB0372687E2E201EDE /* Pods-FLCRM_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C53CED62A729D0F98F1DE073CF0F4CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FLCRM;
+			target = 508DDB1FF71474D2180B361FB49F6AF8 /* FLCRM */;
+			targetProxy = EE1693EC42B06746B80C20D27EC794FC /* PBXContainerItemProxy */;
+		};
+		D1C506B10C51110B814A5E0447FE127B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FLCRM_Example";
+			target = DA0F1ADDD70CCE565DB147E932888DED /* Pods-FLCRM_Example */;
+			targetProxy = 705345CC41B1545D8E4F6B899A0E7DE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A6CC2A0432C2D4E0BAC3E90543322E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A9A1492548C5281A1E7F00CD8D562C0 /* FLCRM.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FLCRM/FLCRM-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLCRM/FLCRM-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLCRM/FLCRM.modulemap";
+				PRODUCT_MODULE_NAME = FLCRM;
+				PRODUCT_NAME = FLCRM;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		323660861434B657EBC45AEE1D8369A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 416102E081AE44A61BD2A7B354BDA566 /* Pods-FLCRM_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FLCRM_Tests/Pods-FLCRM_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FLCRM_Tests/Pods-FLCRM_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6091F61D6C7724368ABB44ABB3A2BF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B28659B0BAEA93E673F7166CB026A991 /* Pods-FLCRM_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FLCRM_Example/Pods-FLCRM_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FLCRM_Example/Pods-FLCRM_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97C3C8A5E885AE355D9CC0F2A10ED20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		98586FABA133D5B5CD893C17A96D7B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D367B378BFF47607E009838E0214D74B /* FLCRM.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FLCRM/FLCRM-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLCRM/FLCRM-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLCRM/FLCRM.modulemap";
+				PRODUCT_MODULE_NAME = FLCRM;
+				PRODUCT_NAME = FLCRM;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9DFA7D08415265C89B4959C7F4554A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B496B554A39B9672864C1BB5F27DD848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B51598763C02DF7EC9F7CB996D6A89E /* Pods-FLCRM_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FLCRM_Example/Pods-FLCRM_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FLCRM_Example/Pods-FLCRM_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9B7974454393DEF001705AA95458340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F8A66EE9A58B4B823C2D7B75593AE1F /* Pods-FLCRM_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FLCRM_Tests/Pods-FLCRM_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FLCRM_Tests/Pods-FLCRM_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1373B28059A2A6B91BB3DD5E9DC8504F /* Build configuration list for PBXNativeTarget "Pods-FLCRM_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323660861434B657EBC45AEE1D8369A2 /* Debug */,
+				E9B7974454393DEF001705AA95458340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C3C8A5E885AE355D9CC0F2A10ED20C /* Debug */,
+				9DFA7D08415265C89B4959C7F4554A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555A1A6F27DDE17EC74F873629BEAF57 /* Build configuration list for PBXNativeTarget "FLCRM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6CC2A0432C2D4E0BAC3E90543322E2 /* Debug */,
+				98586FABA133D5B5CD893C17A96D7B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F16AB1BEE59AD6347CA96C256275C9C /* Build configuration list for PBXNativeTarget "Pods-FLCRM_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B496B554A39B9672864C1BB5F27DD848 /* Debug */,
+				6091F61D6C7724368ABB44ABB3A2BF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -21,22 +21,31 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/1060108978@qq.com/FLCRM'
+  s.homepage         = 'https://github.com/ccly/FLCRM'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '1060108978@qq.com' => '1060108978@qq.com' }
-  s.source           = { :git => 'https://github.com/1060108978@qq.com/FLCRM.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ccly/FLCRM.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'FLCRM/Classes/**/*'
+  
+  s.user_target_xcconfig = {
+      'GENERATE_INFOPLIST_FILE' => 'YES'
+  }
+
+  s.pod_target_xcconfig = {
+      'GENERATE_INFOPLIST_FILE' => 'YES'
+  }
+
   
   # s.resource_bundles = {
   #   'FLCRM' => ['FLCRM/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+   s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

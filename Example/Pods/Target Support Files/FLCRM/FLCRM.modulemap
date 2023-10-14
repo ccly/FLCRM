@@ -1,0 +1,6 @@
+framework module FLCRM {
+  umbrella header "FLCRM-umbrella.h"
+
+  export *
+  module * { export * }
+}
